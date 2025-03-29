@@ -1,0 +1,8 @@
+((0, 3), (0, 4)) - PERSON
+((0, 8), (0, 9)) - PERSON
+(0, 11) - PERSON GPE
+(0, 20) - PERSON
+(0, 26) - CARDINAL
+(0, 28) - DATE
+(0, 34) - ORDINAL
+(0, 52) - PERSON GPE

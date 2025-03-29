@@ -1,0 +1,1719 @@
+[
+  {
+    "data": {
+      "text": "My dad met his second wife, Maggie, an actress from Germany, in a drama group. He was in the theater program at UCLA and later bragged that he was buddies with Carol Burnett and James Garner, and that Sydney Poitier babysat in exchange for Dad helping him get rid of his bohemian accent. No one in the family believes any of this. The facts are Maggie got pregnant, they got married."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15,
+              "end": 21,
+              "text": "second",
+              "labels": [
+                "ORDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 28,
+              "end": 34,
+              "text": "Maggie",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 52,
+              "end": 59,
+              "text": "Germany",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 112,
+              "end": 116,
+              "text": "UCLA",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 160,
+              "end": 173,
+              "text": "Carol Burnett",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 178,
+              "end": 190,
+              "text": "James Garner",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 201,
+              "end": 215,
+              "text": "Sydney Poitier",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 345,
+              "end": 351,
+              "text": "Maggie",
+              "labels": [
+                "ORG"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15,
+              "end": 21,
+              "text": "second",
+              "labels": [
+                "ORDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 28,
+              "end": 34,
+              "text": "Maggie",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 52,
+              "end": 59,
+              "text": "Germany",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 112,
+              "end": 116,
+              "text": "UCLA",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 160,
+              "end": 173,
+              "text": "Carol Burnett",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 178,
+              "end": 190,
+              "text": "James Garner",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 201,
+              "end": 223,
+              "text": "Sydney Poitier babysat",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 240,
+              "end": 243,
+              "text": "Dad",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 345,
+              "end": 351,
+              "text": "Maggie",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Let me ask you just to illustrate this idea of how the letters change over time. Can I ask you to read a letter or two that are in your collection in the book, a letter from a man named Sydney Diamond, a lieutenant."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 115,
+              "end": 118,
+              "text": "two",
+              "labels": [
+                "CARDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 186,
+              "end": 200,
+              "text": "Sydney Diamond",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 115,
+              "end": 118,
+              "text": "two",
+              "labels": [
+                "CARDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 186,
+              "end": 200,
+              "text": "Sydney Diamond",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Yeah. I love Sydney Diamond and his fiancee Estelle Spiro. And Sydney would say, he'd say later after he met Estelle that-- I think they were 14 or 16 at the time-- that the second time he walked her home, he knew he'd marry her. And they're just a wonderful couple. And Sydney was gung ho about going off to war. He was a very smart young man, and he volunteered for what would be a very dangerous division."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 27,
+              "text": "Sydney Diamond",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 44,
+              "end": 57,
+              "text": "Estelle Spiro",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 63,
+              "end": 69,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 109,
+              "end": 116,
+              "text": "Estelle",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 142,
+              "end": 144,
+              "text": "14",
+              "labels": [
+                "CARDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 148,
+              "end": 150,
+              "text": "16",
+              "labels": [
+                "DATE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 158,
+              "end": 164,
+              "text": "time--",
+              "labels": [
+                "CARDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 174,
+              "end": 180,
+              "text": "second",
+              "labels": [
+                "ORDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 271,
+              "end": 277,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 27,
+              "text": "Sydney Diamond",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 44,
+              "end": 57,
+              "text": "Estelle Spiro",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 63,
+              "end": 69,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 109,
+              "end": 116,
+              "text": "Estelle",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 142,
+              "end": 144,
+              "text": "14",
+              "labels": [
+                "CARDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 148,
+              "end": 150,
+              "text": "16",
+              "labels": [
+                "DATE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 174,
+              "end": 180,
+              "text": "second",
+              "labels": [
+                "ORDINAL"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 271,
+              "end": 277,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "And then the last letter. Bill dear, it always gives me such a warm feeling to write those words. We've always had such a special relationship, haven't we? You're not only a loving grandson, you've been a friend, and that's a real treasure. I've needed to tell you of my love for you, so you will be able to wear it like a warm jacket for as long as you want, something that no one or nothing can take away from you. You've always made me happy. I love you, Grandma. Over. PS, when I hear this song, I think of you. It's the theme of the TV show Love, Sydney with Tony Randall. [LAUGHTER] Please believe me, lately my whole world is changing. Suddenly you're here, and life is better than before. We're like friends forever. And when the rest are gone, it's you who will be there for me, my friend. Thanks. [APPLAUSE]"
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 26,
+              "end": 30,
+              "text": "Bill",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 458,
+              "end": 465,
+              "text": "Grandma",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 473,
+              "end": 475,
+              "text": "PS",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 546,
+              "end": 550,
+              "text": "Love",
+              "labels": [
+                "WORK_OF_ART"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 552,
+              "end": 558,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 564,
+              "end": 576,
+              "text": "Tony Randall",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 26,
+              "end": 30,
+              "text": "Bill",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 458,
+              "end": 465,
+              "text": "Grandma",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 473,
+              "end": 475,
+              "text": "PS",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 546,
+              "end": 550,
+              "text": "Love",
+              "labels": [
+                "WORK_OF_ART"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 552,
+              "end": 558,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 564,
+              "end": 576,
+              "text": "Tony Randall",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": " When I hear this song, I think of you. It's the theme of the TV show Love, Sydney with Tony Randall."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 70,
+              "end": 74,
+              "text": "Love",
+              "labels": [
+                "WORK_OF_ART"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 76,
+              "end": 82,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 88,
+              "end": 100,
+              "text": "Tony Randall",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 70,
+              "end": 74,
+              "text": "Love",
+              "labels": [
+                "WORK_OF_ART"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 76,
+              "end": 82,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 88,
+              "end": 100,
+              "text": "Tony Randall",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "But my problem with Rome, Amsterdam, and Vancouver, they're very nice cities, but I'd been to all of them. And I really in my heart of hearts wanted to go to Australia. And so I'm writing up the story, and I thought, would anyone mind? So I just said, NIH officials said they were considering Rome, Vancouver, Amsterdam, and Sydney. And the next morning, I see that the wires have picked up the story, and they've called the Sydney Tourist Bureau, and they said are you at all interested in hosting the AIDS convention? And they said, well of course. And then the Miami Herald picked up the story, and they called the NIH, and they said, Sydney says they're really interested in hosting."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20,
+              "end": 24,
+              "text": "Rome",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 26,
+              "end": 35,
+              "text": "Amsterdam",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 41,
+              "end": 50,
+              "text": "Vancouver",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 158,
+              "end": 167,
+              "text": "Australia",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 252,
+              "end": 255,
+              "text": "NIH",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 293,
+              "end": 297,
+              "text": "Rome",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 299,
+              "end": 308,
+              "text": "Vancouver",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 310,
+              "end": 319,
+              "text": "Amsterdam",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 325,
+              "end": 331,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 337,
+              "end": 353,
+              "text": "the next morning",
+              "labels": [
+                "TIME"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 421,
+              "end": 446,
+              "text": "the Sydney Tourist Bureau",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 560,
+              "end": 576,
+              "text": "the Miami Herald",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 618,
+              "end": 621,
+              "text": "NIH",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 638,
+              "end": 644,
+              "text": "Sydney",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20,
+              "end": 24,
+              "text": "Rome",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 26,
+              "end": 35,
+              "text": "Amsterdam",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 41,
+              "end": 50,
+              "text": "Vancouver",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 158,
+              "end": 167,
+              "text": "Australia",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 252,
+              "end": 255,
+              "text": "NIH",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 293,
+              "end": 297,
+              "text": "Rome",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 299,
+              "end": 308,
+              "text": "Vancouver",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 310,
+              "end": 319,
+              "text": "Amsterdam",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 325,
+              "end": 331,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 337,
+              "end": 353,
+              "text": "the next morning",
+              "labels": [
+                "TIME"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 421,
+              "end": 446,
+              "text": "the Sydney Tourist Bureau",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 560,
+              "end": 576,
+              "text": "the Miami Herald",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 618,
+              "end": 621,
+              "text": "NIH",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 638,
+              "end": 644,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "5:30 in the afternoon, in the food court at a table near Sbarro's, Nick and Cheyenne and Natalie are just hanging around killing time, waiting to go to a movie when their buddy Chase shows up and explains the Sydney situation."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 21,
+              "text": "5:30 in the afternoon",
+              "labels": [
+                "TIME"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 57,
+              "end": 63,
+              "text": "Sbarro",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 67,
+              "end": 84,
+              "text": "Nick and Cheyenne",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 89,
+              "end": 96,
+              "text": "Natalie",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 177,
+              "end": 182,
+              "text": "Chase",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 209,
+              "end": 215,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 21,
+              "text": "5:30 in the afternoon",
+              "labels": [
+                "TIME"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 57,
+              "end": 63,
+              "text": "Sbarro",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 67,
+              "end": 71,
+              "text": "Nick",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 76,
+              "end": 84,
+              "text": "Cheyenne",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 89,
+              "end": 96,
+              "text": "Natalie",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 177,
+              "end": 182,
+              "text": "Chase",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 209,
+              "end": 215,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Sydney is my friend at the mall who ditched me for her boyfriend."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 6,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 6,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "And if anybody should have heard about it, it should have been me. My parents worked on the McGovern campaign. They admired Martin Luther King. My dad was a high school English teacher who taught To Kill a Mockingbird. And every Sydney Poitier movie that came on TV they would sit us down and watch it. I was raised to have a social-- look, I went on to be a public radio reporter, all right."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 92,
+              "end": 100,
+              "text": "McGovern",
+              "labels": [
+                "NORP"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 124,
+              "end": 142,
+              "text": "Martin Luther King",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 169,
+              "end": 176,
+              "text": "English",
+              "labels": [
+                "LANGUAGE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 229,
+              "end": 243,
+              "text": "Sydney Poitier",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 326,
+              "end": 334,
+              "text": "social--",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 92,
+              "end": 100,
+              "text": "McGovern",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 124,
+              "end": 142,
+              "text": "Martin Luther King",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 169,
+              "end": 176,
+              "text": "English",
+              "labels": [
+                "LANGUAGE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 229,
+              "end": 235,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 326,
+              "end": 334,
+              "text": "social--",
+              "labels": [
+                "NORP"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Recently a Bohri leader in Sydney was prosecuted and sent to jail for FGM. After that, a handful of clergy from the Bohri community around the world started circulating letters saying that cutting is illegal and we should stop doing it. That's on the heels of a small group of us who have become very vocal about ending FGM. That's what I can do. That's a new Bohri tradition."
+    },
+    "predictions": [
+      {
+        "model_version": "en_core_web_sm",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Bohri",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 27,
+              "end": 33,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 70,
+              "end": 73,
+              "text": "FGM",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 116,
+              "end": 121,
+              "text": "Bohri",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 320,
+              "end": 323,
+              "text": "FGM",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 360,
+              "end": 365,
+              "text": "Bohri",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "model_version": "en_core_web_lg",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Bohri",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 27,
+              "end": 33,
+              "text": "Sydney",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 116,
+              "end": 121,
+              "text": "Bohri",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 360,
+              "end": 365,
+              "text": "Bohri",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

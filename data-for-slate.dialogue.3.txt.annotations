@@ -1,0 +1,6 @@
+(0, 5) - PERSON
+(0, 90) - PERSON
+(0, 92) - ORG
+(0, 109) - WORK_OF_ART
+(0, 110) - GPE
+((0, 112), (0, 113)) - PERSON

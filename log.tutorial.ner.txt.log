@@ -1,0 +1,262 @@
+INFO:root:Executed with: /home/studio-lab-user/.conda/envs/studiolab/bin/slate slate-ner.md -t categorical -s token -o -c ner.config -l log.tutorial.ner.txt -sl -sm
+INFO:root:Arguments interpreted as: Namespace(data=['slate-ner.md'], data_list=None, ann_type='categorical', ann_scope='token', config_file='ner.config', log_prefix='log.tutorial.ner.txt', log_debug=False, show_help=False, show_legend=True, show_progress=False, show_mark=True, readonly=False, overwrite=True, prevent_self_links=False, prevent_forward_links=False, do_not_show_linked=False, alternate_comparisons=False)
+INFO:root:Executed with: /home/studio-lab-user/.conda/envs/studiolab/bin/slate slate-ner.md -t categorical -s token -o -c ner.config -l log.tutorial.ner.txt -sl -sm
+INFO:root:Arguments interpreted as: Namespace(data=['slate-ner.md'], data_list=None, ann_type='categorical', ann_scope='token', config_file='ner.config', log_prefix='log.tutorial.ner.txt', log_debug=False, show_help=False, show_legend=True, show_progress=False, show_mark=True, readonly=False, overwrite=True, prevent_self_links=False, prevent_forward_links=False, do_not_show_linked=False, alternate_comparisons=False)
+INFO:root:Reading data from slate-ner.md.annotations
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+INFO:root:Executed with: /home/studio-lab-user/.conda/envs/studiolab/bin/slate slate-ner.md -t categorical -s token -o -c ner.config -l log.tutorial.ner.txt -sl -sm
+INFO:root:Arguments interpreted as: Namespace(data=['slate-ner.md'], data_list=None, ann_type='categorical', ann_scope='token', config_file='ner.config', log_prefix='log.tutorial.ner.txt', log_debug=False, show_help=False, show_legend=True, show_progress=False, show_mark=True, readonly=False, overwrite=True, prevent_self_links=False, prevent_forward_links=False, do_not_show_linked=False, alternate_comparisons=False)
+INFO:root:Reading data from slate-ner.md.annotations
+INFO:root:Read slate-ner.md.annotations
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+INFO:root:Executed with: /home/studio-lab-user/.conda/envs/studiolab/bin/slate -d data-for-slate.file-list.txt -c ner.config -t categorical -s token -o -l log.tutorial.ner.txt -sl -sm
+INFO:root:Arguments interpreted as: Namespace(data=[], data_list=['data-for-slate.file-list.txt'], ann_type='categorical', ann_scope='token', config_file='ner.config', log_prefix='log.tutorial.ner.txt', log_debug=False, show_help=False, show_legend=True, show_progress=False, show_mark=True, readonly=False, overwrite=True, prevent_self_links=False, prevent_forward_links=False, do_not_show_linked=False, alternate_comparisons=False)
+INFO:root:Reading data from data-for-slate.dialogue.0.txt.annotations
+INFO:root:Read data-for-slate.dialogue.0.txt.annotations
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+INFO:root:Reading data from data-for-slate.dialogue.1.txt.annotations
+INFO:root:Read data-for-slate.dialogue.1.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.0.txt.annotations
+INFO:root:Read data-for-slate.dialogue.0.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.1.txt.annotations
+INFO:root:Read data-for-slate.dialogue.1.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.2.txt.annotations
+INFO:root:Read data-for-slate.dialogue.2.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.3.txt.annotations
+INFO:root:Read data-for-slate.dialogue.3.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.4.txt.annotations
+INFO:root:Read data-for-slate.dialogue.4.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.5.txt.annotations
+INFO:root:Read data-for-slate.dialogue.5.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.6.txt.annotations
+INFO:root:Read data-for-slate.dialogue.6.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.7.txt.annotations
+INFO:root:Read data-for-slate.dialogue.7.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.8.txt.annotations
+INFO:root:Read data-for-slate.dialogue.8.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.9.txt.annotations
+INFO:root:Read data-for-slate.dialogue.9.txt.annotations
+INFO:root:Executed with: /home/studio-lab-user/.conda/envs/studiolab/bin/slate -d data-for-slate.file-list.txt -c ner.config -t categorical -s token -o -l log.tutorial.ner.txt -sl -sm
+INFO:root:Arguments interpreted as: Namespace(data=[], data_list=['data-for-slate.file-list.txt'], ann_type='categorical', ann_scope='token', config_file='ner.config', log_prefix='log.tutorial.ner.txt', log_debug=False, show_help=False, show_legend=True, show_progress=False, show_mark=True, readonly=False, overwrite=True, prevent_self_links=False, prevent_forward_links=False, do_not_show_linked=False, alternate_comparisons=False)
+INFO:root:Reading data from data-for-slate.dialogue.0.txt.annotations
+INFO:root:Read data-for-slate.dialogue.0.txt.annotations
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+WARNING:root:Error caught in drawing extra lines
+INFO:root:Reading data from data-for-slate.dialogue.1.txt.annotations
+INFO:root:Read data-for-slate.dialogue.1.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.2.txt.annotations
+INFO:root:Read data-for-slate.dialogue.2.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.3.txt.annotations
+INFO:root:Read data-for-slate.dialogue.3.txt.annotations
+INFO:root:Reading data from data-for-slate.dialogue.4.txt.annotations
+INFO:root:Read data-for-slate.dialogue.4.txt.annotations
