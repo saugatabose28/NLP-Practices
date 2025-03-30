@@ -1,0 +1,17 @@
+4 START
+4 I
+4 END
+4 START I
+1 I END
+1 START I END
+3 eat
+3 chocolate
+3 I eat
+3 eat chocolate
+3 chocolate END
+3 START I eat
+3 I eat chocolate
+3 eat chocolate END
+3 START I eat chocolate
+3 I eat chocolate END
+3 START I eat chocolate END

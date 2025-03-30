@@ -1,0 +1,24 @@
+Overview
+In this assignment you will implement a system that generates SQL queries in response to student questions. This kind of system could be used by the student centre to answer questions when all the human advisors are busy or the office is closed. The idea is that a student has a question, the system converts it to an SQL query that can be run on a database to answer the student's question.
+
+For instance, a student might ask, "What are the names of all the students in the database?" (ie., this is the input). Your system will classify this question and produce the corresponding SQL query: SELECT name FROM students;  (ie., this is the output).
+
+You will be taking a simple approach: treating this as a classification problem. Each possible SQL query is a different label. Given a question in English, your system will need to guess the correct query. Note - this approach is somewhat limited because it cannot generate novel SQL queries, it can only select one from the set it knows about. That's okay for now. In future assignments, we'll explore ways to make it more powerful.
+
+We have broken the task up into modular pieces. This has the advantage that you can work on them mostly independently and attempt later steps even if you get stuck on earlier ones. When you submit, we provide correct implementations of functions you need to use (so, for example, even if you can't get inference working, you can still do the learning question). The disadvantage is that it is harder for us to provide input / output pairs. Most questions still have them, but a few do not. 
+
+Like in assignment one:
+
+You can submit as many times as you like without penalty
+
+Once you solve all test cases, you have full credit
+
+If you only solve some test cases for a question then you will get partial credit for that question
+
+You may use the following Python builtin libraries:
+
+json , https://docs.python.org/3/library/json.html (this is important for reading data)
+
+collections , https://docs.python.org/3/library/collections.html (this is not necessary, but you are welcome to use some of the things it provides if they make writing your code easier)
+
+You may not install any additional packages or use other libraries. If you believe there is a builtin library that is essential, you may email Jonathan to request it be added to the list above.

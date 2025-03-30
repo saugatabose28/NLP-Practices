@@ -1,0 +1,37 @@
+Pinecone
+
+Go to http://app.pinecone.io/ and create an account
+
+
+
+Complete your information, selecting Python
+
+
+
+
+
+Scroll down and press the eye to reveal your API key
+
+
+
+Write down the key.
+
+OpenAI
+
+Go to https://platform.openai.com/overview and select sign up in the top right
+
+
+
+Create an account and verify it by clicking the link in the email you receive.
+
+Hover over the left side menu and select "API keys"
+
+
+
+Verify your mobile phone number.
+
+Select 'Create new secret key'
+
+Enter any name and select any project (e.g., "COMP5046 key" and "Default project"). Set permissions to 'all' and press 'Create secret key'
+
+Copy the key (it will not be accessible once you click 'Done' or close this window).

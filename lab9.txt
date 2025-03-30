@@ -1,0 +1,262 @@
+Lab 9
+
+This week we will try two annotation tools: Label Studio and SLATE. Both are open source projects, but differ significantly in approach:
+
+Label Studio provides a GUI with all sorts of special features.
+
+SLATE is a purely terminal-based tool, with a limited feature set.
+
+We will be doing the following:
+
+Automatically labelling some data with Named Entities using spaCy.
+
+Manually editing those labels to correct errors.
+
+Measuring the overall accuracy of the spaCy output.
+
+The goal of this lab is to give you some familiarity with annotation tools. Creating annotated data is an essential part of NLP, both for research and applications.
+
+If you have issues when getting them set up, see the 'Setup Tips' page in this lesson.
+
+For both, we will be using data from the podcast This American Life. The version we will use is in this Ed Lesson on the next slide. it is based on data from here. The Label Studio part of the lab is based on this tutorial by the Label Studio developers.
+
+You should look at every occurrence of 'Sydney' and make sure it is labeled correctly (adding and removing labels as needed). Leave all other labels alone. The correct labels should be:
+
+... and that [PERSON Sydney Poitier] babysat in ...
+
+... man named [PERSON Sydney Diamond], a lieutenant.
+
+... I love [PERSON Sydney Diamond] and his fiancee Estelle Spiro. And [PERSON Sydney] ...  And [PERSON Sydney] was gung
+
+... the TV show [WORK_OF_ART Love, Sydney] with Tony ...
+
+... Amsterdam, and [GPE Sydney]. And the ... called the [GPE Sydney] Tourist Bureau ...  they said, [GPE Sydney] says they're ...
+
+...  explains the [PERSON Sydney] situation.
+
+[PERSON Sydney] is my friend at the mall who ditched me for her boyfriend.
+
+...  And every [PERSON Sydney Poitier] movie that ...
+
+... leader in [GPE Sydney] was prosecuted ...
+
+
+-------------------------------------------------------------------------------------------
+
+Setup
+
+Open a terminal.
+
+Create a folder for this task, move into it, and print the location so you know where you need to save files:
+
+mkdir comp4446-5046_lab9
+cd comp4446-5046_lab9
+pwd
+
+Set up a virtual environment by running this commands:
+
+python3 -m venv env-comp5046-lab9
+
+
+Then, on Mac / Linux, activate it with:
+
+source env-comp5046-lab9/bin/activate
+
+Or, on Windows, activate it with:
+
+.\env-comp5046-lab9\Scripts\activate
+
+
+Note, if at any point in this lab you lose your terminal / need to restart / etc, you can get back into this environment as follows:
+
+Open a terminal
+
+cd comp4446-5046_lab9
+
+source env-comp5046-lab9/bin/activate
+or
+.\env-comp5046-lab9\Scripts\activate
+
+Next, install dependencies:
+
+python3 -m pip install -U pip
+pip install -U spacy pandas label-studio
+
+
+Get two spaCy models (note that this may take a few minutes):
+
+python3 -m spacy download en_core_web_sm
+python3 -m spacy download en_core_web_lg
+
+
+Next, we label the data using spaCy.
+
+First, download this script and save it in the folder printed by the pwd command above.
+
+
+
+Next, download this data, also saving it where you are:
+
+
+
+Then run the program as follows:
+
+python3 label-with-spacy.py
+
+
+Create a project in label studio. When prompted for an email address and password, make up any one you want:
+
+label-studio init ner-tagging
+
+
+Annotation
+
+Run label studio:
+
+label-studio start ner-tagging
+
+
+On some computers, the command above will open a browser window. If it does not for you then open a browser and go to:
+
+http://0.0.0.0:8080/
+
+
+Create an account:
+
+
+
+This should show you a page like this:
+
+
+
+Open your project and import the data in tasks.json created by the label-with-spacy.py script.
+
+From the project in Label Studio, click the following buttons:
+
+Settings (top right)
+
+Labelling Interface (top left)
+
+Browse Templates
+
+Natural Language Processing
+
+Named Entity Recognition
+
+Adjust the labels by removing the ones that are there and adding:
+
+CARDINAL
+DATE
+GPE
+LANGUAGE
+NORP
+ORDINAL
+ORG
+PERSON
+TIME
+WORK_OF_ART
+
+
+Select 'Label All Tasks'. Go through each one, checking the labels for 'Sydney' and fixing them as needed. You can select a label by clicking on it and then change it by selecting a different label at the top, or delete it with the red rubbish bin icon on the right.
+
+Export the data
+
+Click Export (top right)
+
+Select JSON
+
+Save as annotations.json
+
+Evaluate
+
+Download this file:
+
+
+
+Run it like so to see how spaCy's output compares with your annotations:
+
+python3 label-studio-evaluate.py
+
+Your results should be between 85 and 92.
+-----------------------------------------------------------------
+Data
+
+We will be using the same data as from the previous step. We also assume the code from the previous step has been run.
+
+Setup
+
+For this we will use Amazon Sagemaker Studio Lab (you can use your own computer if you like, but may experience issues, particularly if you are on Windows).
+
+In Sagemaker, do the following:
+
+Start your instance, using CPU
+
+Press the purple plus button in the top left
+
+Select 'Terminal' in the bottom row of options
+
+Change to 'dark mode' by going to Settings (top) => Theme => JupyterLab Dark
+
+Install slate (you can reuse the virtual environment from earlier or not - either is fine):
+
+pip install slate-nlp
+
+
+Upload two files. You will need to download these to your computer, then upload them to Sagemaker.
+
+First, a configuration file for SLATE:
+
+
+
+
+
+And code to prepare the data:
+
+
+
+Which you should run like so:
+
+python3 prepare-for-slate.py
+
+
+Annotation
+
+First, you will learn how to do annotation in SLATE. Download this file:
+
+
+
+Then run the tutorial like so:
+
+slate slate-ner.md -t categorical -s token -o -c ner.config -l log.tutorial.ner.txt -sl -sm
+
+
+Once you are done with the tutorial, type q to quit.
+
+After that, you are ready to do annotation. You can do that like so:
+
+slate -d data-for-slate.file-list.txt -c ner.config -t categorical -s token -o -l log.tutorial.ner.txt -sl -sm
+
+
+Note that annotations are auto-saved, so when you are done you can simply quit.
+
+And finally you can evaluate again:
+
+
+
+python3 slate-evaluate.py
+
+------------------------------------------------------------------------------------
+If you have trouble getting either annotation tool set up, try looking at the advice below. Thank you for the students who shared these solutions!
+
+Windows
+
+Error that mentions psycopg2 
+
+Use python 3.12.3
+
+Download and install postgresSQL from here: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+pip install psycopg2
+
+[thanks Alexander Jephtha!]
+

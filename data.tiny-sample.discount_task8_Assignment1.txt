@@ -1,0 +1,18 @@
+3 START START
+3 START I
+2 I love
+1 love NLP
+1 NLP END
+3 START START I
+2 START I love
+1 I love NLP
+1 love NLP END
+1 love chocolate
+2 chocolate END
+1 I love chocolate
+1 love chocolate END
+1 I eat
+1 eat chocolate
+1 START I eat
+1 I eat chocolate
+1 eat chocolate END

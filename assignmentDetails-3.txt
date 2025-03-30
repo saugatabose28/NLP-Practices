@@ -1,0 +1,110 @@
+In this assignment, you will implement three inference methods for sequential models.
+
+The data and model for the task is a simplified form of Named Entity Recognition (NER). We provide the model in two parts:
+
+Label Probability for Each Token: This is the probability of each possible label for each token in the sequence. 
+
+Transition Probabilities Between Labels: This is the probability of going from one label to another within the sequence.
+
+We provide these to you, so you don't have to worry about how we calculate them. You can imagine that the per-token probabilities are the distributions produced by a sequential model like an LSTM, and the transition probabilities are a table of values.
+
+The probability for a sequence is the product of these probabilities. For example, if we have a two word sequence: Australia ! and we are considering the label sequence: LOC O then the probability is the product of these five probabilities from the variables we provide:
+
+# Probabilities of labels given words
+P(LOC | "Australia")
+P(O | "!")
+# Probabilities of label transitions
+P(LOC | START)
+P(O | LOC)
+P(END | O)
+
+For the same word sequence, if we are considering O O as the label sequence, then the probability is the produce of these:
+
+# Probabilities of labels given words
+P(O | "Australia")
+P(O | "!")
+# Probabilities of label transitions
+P(O | START)
+P(O | O)
+P(END | O)
+
+Your algorithms will use the probabilities we provide to identify the most probable sequence.
+
+Each question has a different inference method:
+
+Exhaustive Search
+
+Beam Search
+
+Viterbi Algorithm
+
+Function Definition
+In each question, the input to your function will be:
+
+tokens, A list of strings. The words being labeled.
+
+distributions, a list of dictionaries, which map from strings to floats. Each element in the list is the distribution for one token. The dictionary maps from possible labels to their probabilities.
+
+transitions, a dictionary, which maps from pairs of strings to floats. The strings are pairs of labels (from label and to label). The floats are the probabilities for those transitions.
+
+labels, a set of strings. These are all of the possible labels.
+
+k, an integer. The size of beam to use (this is only used in the beam search question).
+
+The output will be a tuple containing:
+
+A float, the probability of the highest probability sequence
+
+A list of strings, the sequence of labels that had the highest probability.
+
+Details
+There are few additional details to be aware of:
+
+Ties - Break ties in probability by ordering the sequences in reverse alphabetical order. Do this both for your answer and for any internal steps in your algorithms. For beam search, you should be considering the complete sequence so far at each step when sorting.
+
+Start and End - The probability needs to incorporate two special transitions. One from START to the first label, and one from the last label to END.
+
+Accuracy of output - To check your code, we are doing exact comparisons on the label sequences. For the scores, we are accepting answers within 1e-10 of our answer.
+
+Sample Input and Output
+In all cases, the following test sample can be used:
+
+tokens = ["Sydney", "is", "nice"]
+distributions = [
+    {"LOC": 0.9, "O": 0.1},
+    {"LOC": 0.05, "O": 0.95},
+    {"LOC": 0.05, "O": 0.95},
+]
+transitions = {
+    ("START", "O"): 0.8,
+    ("START", "LOC"): 0.2,
+    ("START", "END"): 0.0,
+    ("O", "END"): 0.05,
+    ("O", "O"): 0.9,
+    ("O", "LOC"): 0.05,
+    ("LOC", "END"): 0.05,
+    ("LOC", "O"): 0.8,
+    ("LOC", "LOC"): 0.2,
+}
+labels = {"LOC", "O"}
+k = 5
+
+You should return:
+
+(0.0058482000000000004, ['LOC', 'O', 'O'])
+Submission Guidelines
+Like in previous assignments:
+
+Unlimited Submissions: You can submit as many times as you like without penalty.
+
+Full Credit: Once you solve all test cases, you have full credit.
+
+Partial Credit If you only solve some test cases for a question then you will get partial credit for that question.
+
+Permitted Libraries: You may use the following Python built-in libraries:
+
+itertools, https://docs.python.org/3/library/itertools.html 
+
+collections , https://docs.python.org/3/library/collections.html (this is not necessary, but you are welcome to use some of the things it provides if they make writing your code easier)
+
+Restrictions: You may not install any additional packages or use other libraries. If you believe there is a builtin library that is essential, you may email Jonathan to request it be added to the list above.

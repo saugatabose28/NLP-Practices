@@ -1,0 +1,24 @@
+
+In this assignment you will implement a range of ngram-based language models and language model components.
+
+All parts are equally weighted (a third of a mark each).
+
+Unless stated otherwise, always follow these instructions when reading data:
+
+Split words on whitespace
+
+Do not separate punctuation from words
+
+Do not add special markers for the start and end of lines, start and end of sentences, or other boundaries
+
+Ngrams should not extend across line boundaries
+
+When the output is a probability, we will accept values within 1e-5 of the true value (since comparing floating point numbers exactly could be misleading).
+
+You may use the following Python builtin libraries:
+
+math
+
+collections
+
+You may not install any additional packages or use other libraries. If you believe there is a builtin library that is essential, you may email Jonathan to request it be added to the list above.
