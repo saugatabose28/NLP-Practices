@@ -77,7 +77,9 @@ Usage
 
 Clone the repository:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/your-username/NLP-Practices.git  cd NLP-Practices   `
+`git clone https://github.com/your-username/NLP-Practices.git`
+
+`cd NLP-Practices`
 
 Follow instructions provided in each notebook or Python script.
 
@@ -89,7 +91,7 @@ Requirements
 *   Required libraries:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install nltk spacy tensorflow keras torch sklearn pandas numpy matplotlib seaborn   `
+`pip install nltk spacy tensorflow keras torch sklearn pandas numpy matplotlib seaborn`
 
 Author
 ------
